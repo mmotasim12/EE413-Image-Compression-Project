@@ -10,6 +10,13 @@ This project applies **image compression** and **classification** using **wavele
 2. Run the cells in order to train models, perform image compression, and evaluate performance.
 3. Make sure the necessary datasets are loaded into the notebook or use the provided data links.
 
+## Dataset
+
+The dataset used in this project is **Mini-ImageNet**. Due to its size, it is hosted on Google Drive. You can download it using the link below:
+
+[Download Mini-ImageNet Dataset](https://drive.google.com/file/d/your-link-here)
+
+
 ## Dependencies
 
 - `torch`
