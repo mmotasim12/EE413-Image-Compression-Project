@@ -2,14 +2,26 @@
 
 ## Overview
 
-This project focuses on image compression techniques using wavelet transforms and compressed sensing, applied to the Mini-ImageNet dataset. We evaluate the impact of compression on deep learning model classification and improve robustness by fine-tuning models on compressed data.
+This project applies **image compression** and **classification** using **wavelet transforms** and **compressed sensing** to the **Mini-ImageNet** dataset. The project demonstrates fine-tuning deep learning models (ResNet18) to handle compressed data.
 
-## Repository Structure
+## How to Use
 
-- `src/` - Python scripts for data loading, model training, compression, and evaluation
-- `notebooks/` - Jupyter notebooks for exploratory analysis and visualization
-- `requirements.txt` - Python dependencies
+1. Open the [Google Colab notebook](https://colab.research.google.com/) from this repository.
+2. Run the cells in order to train models, perform image compression, and evaluate performance.
+3. Make sure the necessary datasets are loaded into the notebook or use the provided data links.
 
-## Setup Instructions
+## Dependencies
 
-1. Clone the repository:
+- `torch`
+- `torchvision`
+- `pywt`
+- `cvxpy`
+- `scikit-learn`
+- `matplotlib`
+- `numpy`
+
+---
+
+## License
+
+This project is for educational purposes only.
